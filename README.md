@@ -1,6 +1,8 @@
 # GeoTimeTracker
 
-Project Description:
+**Project Description:**
+
+
 GeoTimeTracker is a tool that automates the analysis of location history based on GPS data, integrating these data with calendar events to generate a detailed work hours report. This project merges location data (from Google Timeline, downloaded as JSON) and events from .ics calendar files, allowing users to see the time spent in specific locations alongside daily events and total hours worked.
 
 **Features:**
