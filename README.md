@@ -14,10 +14,13 @@ Report Generation: Creates a daily CSV report detailing entry and exit times, to
 
 **Files:** 
 
-Records.json: JSON file containing the user’s location history, downloaded from Google Takeout.
-outputs.csv: Generated CSV file containing location data after conversion.
-calendar_events.ics: Calendar .ics file with events to be included in the report.
-work_hours_<year>_<month>.csv: The final work hours report generated in CSV format.
+**Records.json:** JSON file containing the user’s location history, downloaded from Google Takeout.
+
+**outputs.csv: ** Generated CSV file containing location data after conversion.
+
+**calendar_events.ics** :Calendar .ics file with events to be included in the report.
+
+ The final work hours report is generated in CSV format : work_hours_<year>_<month>.csv: 
 
 
 **Requirements:**
