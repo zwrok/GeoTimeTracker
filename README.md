@@ -16,12 +16,11 @@ Report Generation: Creates a daily CSV report detailing entry and exit times, to
 
 **Records.json:** JSON file containing the user’s location history, downloaded from Google Takeout.
 
-**outputs.csv:** Generated CSV file containing location data after conversion.
-
 **calendar_events.ics** :Calendar .ics file with events to be included in the report.
 
- The final work hours report is generated in CSV format : work_hours_<year>_<month>.csv: 
+The final work hours report is generated in CSV format : work_hours_<year>_<month>.csv: 
 
+I was working on calendar data exported from MacOS callendar in the .ics format. 
 
 **Requirements:**
 
@@ -30,16 +29,10 @@ Pandas
 Geopy 
 Ics
 
-I was working on calendar data exported from MacOS callendar in the .ics format. 
 
-**You need those files in the script. **
 
-Records.json (from Google Takeouts)
-calendar_events.ics 
+**Use Cases:**
 
-You can change the file names in the script.
-
-Use Cases:
 Work Hours Tracking: Useful for tracking time spent in specific work locations.
 Event Reporting: Combines location data with calendar events, making it easier to document time at work and meeting attendance.
 GeoTimeTracker is an ideal tool for anyone looking to analyze their location and calendar data in detail, to better manage and document time.
