@@ -16,7 +16,7 @@ Report Generation: Creates a daily CSV report detailing entry and exit times, to
 
 **Records.json:** JSON file containing the user’s location history, downloaded from Google Takeout.
 
-**outputs.csv: ** Generated CSV file containing location data after conversion.
+**outputs.csv:** Generated CSV file containing location data after conversion.
 
 **calendar_events.ics** :Calendar .ics file with events to be included in the report.
 
@@ -26,9 +26,9 @@ Report Generation: Creates a daily CSV report detailing entry and exit times, to
 **Requirements:**
 
 Python 3.x
-Pandas: For processing CSV data and generating the final report.
-Geopy: For calculating distances between geographical coordinates.
-Ics.py: For parsing .ics calendar files.
+Pandas 
+Geopy 
+Ics
 
 I was working on calendar data exported from MacOS callendar in the .ics format. 
 
